@@ -1,7 +1,8 @@
 /**
  * Client URL: http://notesapp-v1.dicodingacademy.com/
  * extends-default-eslintre: airbnb-base
- * https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+ * newman run notes-api-test.postman_collection.json
+ * --environment notes-api-test.postman_environment.json
  */
 const Hapi = require('@hapi/hapi');
 const routes = require('./routes');
